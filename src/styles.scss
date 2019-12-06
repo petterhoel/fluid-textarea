@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  background: #2E264C;
+  color: #F7F5F7;
+  font-size: 2em;
+}
+
+body {
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+header, main {
+  display: flex;
+  align-items: center;
+}
+header {
+  height: 40px;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  justify-content: center
+}
+textarea {
+  min-height: 30px;
+  border: 0;
+  border-bottom: 4px solid #747BCD;
+  background: darken(#F7F5F7, 5%);
+  padding: 10px;
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+}
+
+textarea.test {
+  width: 500px;
+}
+
+textarea:focus {
+  background: #F7F5F7;
+  border-bottom: 4px solid #10E6A6;
+}
